@@ -94,7 +94,7 @@ ___
 | vpc_public | VPC public network, should be within network specified for vpc_subnet, i.e. 192.168.3.0/25 | str | False | 
 | vpc_private | VPC private network, should be within network specified for vpc_subnet, i.e. 192.168.3.240/28 | str | False |
 | ngfw_ami | Stonesoft NGFW AMI id to launch | str | True |
-| aws_client | Whether to launch an AWS client host on public subnet | boolean | False |
+| aws_client | Whether to launch an AWS client host on private subnet | boolean | False |
 | aws_client_ami | AWS Client AMI. Required if aws_client is True | str | False |
 
 
